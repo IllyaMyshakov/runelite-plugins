@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2018, Woox <https://github.com/wooxsolo>
+ * Copyright (c) 2020, Illya Myshakov <https://github.com/IllyaMyshakov>
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
@@ -22,31 +22,40 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
  * SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-package net.runelite.client.plugins.demonicgorilla;
+package mahoganyhomes;
 
-import lombok.Getter;
-import net.runelite.api.Player;
+import java.awt.Dimension;
+import java.awt.Graphics2D;
+import javax.inject.Inject;
+import net.runelite.api.Client;
+import net.runelite.client.plugins.mahoganyhomes.contracts.Contract;
+import net.runelite.client.ui.overlay.OverlayPanel;
+import net.runelite.client.ui.overlay.OverlayPriority;
 
-public class PendingGorillaAttack
+public class MahoganyHomesOverlay extends OverlayPanel
 {
-	@Getter
-	private DemonicGorilla attacker;
+	private final MahoganyHomesPlugin plugin;
 
-	@Getter
-	private DemonicGorilla.AttackStyle attackStyle;
-
-	@Getter
-	private Player target;
-
-	@Getter
-	private int finishesOnTick;
-
-	public PendingGorillaAttack(DemonicGorilla attacker, DemonicGorilla.AttackStyle attackStyle,
-								Player target, int finishesOnTick)
+	@Inject
+	private MahoganyHomesOverlay(Client client, MahoganyHomesPlugin plugin)
 	{
-		this.attacker = attacker;
-		this.attackStyle = attackStyle;
-		this.target = target;
-		this.finishesOnTick = finishesOnTick;
+		this.plugin = plugin;
+		setPriority(OverlayPriority.LOW);
 	}
+
+	@Override
+	public Dimension render(Graphics2D graphics)
+	{
+		Contract contract = plugin.getContract();
+
+		if(contract == null)
+		{
+			return null;
+		}
+
+		contract.makeOverlay(panelComponent, plugin);
+
+		return super.render(graphics);
+	}
+
 }
