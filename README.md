@@ -1,11 +1,14 @@
 # RuneLite Plugins
-A collection of external plugins for the open-source game client RuneLite
+A collection of external plugins/features built for the open-source game client RuneLite
 
 # Setup
 - Follow RuneLite's setup instructions for setting up the RuneLite project on your system
 - Add any of these plugin source files to runelite\runelite-client\src\main\java\net\runelite\client\plugins
 # Plugins
 A list of plugins/features I've experimented with
+
+## Skill Calculator entries for Blisterwood logs (05/09/2020)
+https://github.com/runelite/runelite/pull/12456
 
 ## Pet Counter (01/09/2020)
 https://github.com/runelite/runelite/pull/12434
