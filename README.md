@@ -8,10 +8,10 @@ A collection of external plugins/features built for the open-source game client 
 A list of plugins/features I've experimented with
 
 ## Skill Calculator entries for Blisterwood logs (05/09/2020)
-https://github.com/runelite/runelite/pull/12456
+[Pull Request](https://github.com/runelite/runelite/pull/12456) :heavy_check_mark:
 
 ## Pet Counter (01/09/2020)
-https://github.com/runelite/runelite/pull/12434
+[Pull Request](https://github.com/runelite/runelite/pull/12434)
 
 ## Mahogany Homes (27/08/2020)
 Show helpful information for Mahogany Homes construction contracts
