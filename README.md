@@ -16,7 +16,7 @@ A list of plugins/features I've experimented with
 ### Skill Calculator entries for Blisterwood logs (05/09/2020) :heavy_check_mark:
 [Pull Request](https://github.com/runelite/runelite/pull/12456)
 
-### Pet Counter (01/09/2020) :pencil2:
+### Player Pet List (01/09/2020) :pencil2:
 [Pull Request](https://github.com/runelite/runelite/pull/12434)
 
 ### Mahogany Homes (27/08/2020) :x:
