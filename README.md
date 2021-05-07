@@ -13,11 +13,11 @@ A collection of external plugins/features built for the open-source game client 
 ## Plugins/Features
 A list of plugins/features I've experimented with
 
+### Player Pet List (06/05/2021) :pencil2:
+[Pull Request](https://github.com/runelite/runelite/pull/12434)
+
 ### Skill Calculator entries for Blisterwood logs (05/09/2020) :heavy_check_mark:
 [Pull Request](https://github.com/runelite/runelite/pull/12456)
-
-### Player Pet List (01/09/2020) :pencil2:
-[Pull Request](https://github.com/runelite/runelite/pull/12434)
 
 ### Mahogany Homes (27/08/2020) :x:
 Show helpful information for Mahogany Homes construction contracts
