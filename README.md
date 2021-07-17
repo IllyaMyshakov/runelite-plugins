@@ -13,8 +13,7 @@ A collection of external plugins/features built for the open-source game client 
 ## Plugins/Features
 A list of plugins/features I've experimented with
 
-### Player Pet List (11/05/2021) :pencil2:
-Currently under review
+### Player Pet List (17/07/2021) :heavy_check_mark:
 [Pull Request](https://github.com/runelite/runelite/pull/12434)
 
 ### Skill Calculator entries for Blisterwood logs (05/09/2020) :heavy_check_mark:
