@@ -13,7 +13,10 @@ A collection of external plugins/features built for the open-source game client 
 ## Plugins/Features
 A list of plugins/features I've experimented with
 
-### Fix Colour Override Bug for Pet List Chat Command (21/07/2021) ✔️
+### Performance Improvement and Minor Colour Override Bug (16/08/2021) :pencil2:
+[Pull Request](https://github.com/runelite/runelite/pull/14030)
+
+### Fix Colour Override Bug for Pet List Chat Command (21/07/2021) :heavy_check_mark:
 [Pull Request](https://github.com/runelite/runelite/pull/13917)
 
 ### Player Pet List (17/07/2021) :heavy_check_mark:
