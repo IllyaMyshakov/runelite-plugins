@@ -13,10 +13,13 @@ A collection of external plugins/features built for the open-source game client 
 ## Plugins/Features
 A list of plugins/features I've experimented with
 
+### Fix incorrect pet ID (10/10/2021) ✔️
+[Pull Request](https://github.com/runelite/runelite/pull/14264)
+
 ### Add Duplicate Pets Support (18/08/2021) :pencil2:
 [Pull Request](https://github.com/runelite/runelite/pull/14035)
 
-### Performance Improvement and Minor Colour Override Bug (16/08/2021) :pencil2:
+### Performance Improvement and Minor Colour Override Bug (16/08/2021) :x:
 [Pull Request](https://github.com/runelite/runelite/pull/14030)
 
 ### Fix Colour Override Bug for Pet List Chat Command (21/07/2021) :heavy_check_mark:
