@@ -13,6 +13,9 @@ A collection of external plugins/features built for the open-source game client 
 ## Plugins/Features
 A list of plugins/features I've experimented with
 
+### Add Nexling pet ID (05/01/2022) ✔️
+[Pull Request](https://github.com/runelite/runelite/pull/14555)
+
 ### Fix incorrect pet ID (10/10/2021) ✔️
 [Pull Request](https://github.com/runelite/runelite/pull/14264)
 
