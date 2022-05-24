@@ -21,7 +21,7 @@ A list of plugins/features I've experimented with
 
 ### Add Duplicate Pets Support (18/08/2021) :x:
 [Pull Request](https://github.com/runelite/runelite/pull/14035)
-Review process was deemed a bit too complex. May revisit in the far future.
+PR was deemed a bit too complex by reviewers. May revisit in the far future.
 
 ### Performance Improvement and Minor Colour Override Bug (16/08/2021) :x:
 [Pull Request](https://github.com/runelite/runelite/pull/14030)
